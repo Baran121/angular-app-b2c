@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Launcher</title>
+</head>
+<body>
+    <!-- App Launcher Widget -->
+    <div id="one-digital-portal-widget"></div>    
+    <script
+        type="text/javascript"
+        src="msal-browser.min-old.js"
+    ></script>
+    <script src="1dplibrary.js"></script>
+    <script>
+        // Initialize the app launcher
+        
+        <!-- setInterval(checkUserLogin, 3000);   -->
+    </script>
+    <div class="app-launcher-widget">
+    <div class="dropdown-menu">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li>
+              <a href="JavaScript:checkUserLogin()"><i class="fa fa-user"></i> checkUserLogin()</a>
+            </li>
+            <li>
+              <a href="JavaScript:acquireToken()"><i class="fa fa-user"></i> sign In</a>
+            </li>
+            <li>
+              <a href="JavaScript:logout()"><i class="fa fa-user"></i> Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</body>
+
+</html>
